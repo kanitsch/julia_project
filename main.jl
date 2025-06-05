@@ -2,7 +2,6 @@ using Graphs
 using Random
 using GraphRecipes, Plots
 using LinearAlgebra 
-using Colors
 
 
 function generate_random_graph(n::Int,R_min=1.0,R_max=10.0,ε=10.0)
